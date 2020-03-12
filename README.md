@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my portfolio website
+This is my portfolio website.
 
 ## Build Command
 
