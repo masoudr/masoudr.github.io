@@ -35,7 +35,7 @@ footer:
   copyright: Masoud Rahimi
   location: Location
   social: Around the Web
-  credits: Credits
+  credits: Powered by
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,7 +51,7 @@ address:
   - line: Tehran Province, Iran
 
 # Credits content
-credits: 'Powered by <a href="https://jekyllrb.com">Jekyll</a> & <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer theme</a>.'
+credits: '<a href="https://jekyllrb.com">Jekyll</a> & <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer theme</a>.'
 
 # Build settings
 markdown: kramdown
