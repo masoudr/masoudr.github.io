@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+  <link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" />
+  <updated>2020-05-06T15:53:11-05:00</updated>
+  <id>http://0.0.0.0:4000/</id>
+
+  
+    <title type="html">Masoud Rahimi</title>
+  
+
+  
+    <subtitle>Masoud Rahimi Personal Website.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Project 4</title>
+      <link href="http://0.0.0.0:4000/embedded%20software%20development/2020/04/10/project-4/" rel="alternate" type="text/html" title="Project 4" />
+      <published>2020-04-10T00:00:00-05:00</published>
+      <updated>2020-04-10T00:00:00-05:00</updated>
+      <id>http://0.0.0.0:4000/embedded%20software%20development/2020/04/10/project-4</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/embedded%20software%20development/2020/04/10/project-4/">&lt;p&gt;Build an embedded Linux image from scratch with Docker.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Embedded Software Development" />
+      
+
+      
+
+      
+        <summary type="html">Build an embedded Linux image from scratch with Docker.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 2</title>
+      <link href="http://0.0.0.0:4000/web%20development/2020/01/10/project-2/" rel="alternate" type="text/html" title="Project 2" />
+      <published>2020-01-10T00:00:00-06:00</published>
+      <updated>2020-01-10T00:00:00-06:00</updated>
+      <id>http://0.0.0.0:4000/web%20development/2020/01/10/project-2</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/web%20development/2020/01/10/project-2/">&lt;p&gt;A Django based project with token authentication expiration. Inspired by &lt;a href=&quot;https://stackoverflow.com/questions/14567586/token-authentication-for-restful-api-should-the-token-be-periodically-changed/15380732#15380732&quot;&gt;this&lt;/a&gt; StackOverflow answer.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">A Django based project with token authentication expiration. Inspired by this StackOverflow answer.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 3</title>
+      <link href="http://0.0.0.0:4000/web%20development/2019/12/22/project-3/" rel="alternate" type="text/html" title="Project 3" />
+      <published>2019-12-22T00:00:00-06:00</published>
+      <updated>2019-12-22T00:00:00-06:00</updated>
+      <id>http://0.0.0.0:4000/web%20development/2019/12/22/project-3</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/web%20development/2019/12/22/project-3/">&lt;p&gt;A Django based Book Library project. This project is a sample app that can be used for other projects.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">A Django based Book Library project. This project is a sample app that can be used for other projects.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 1</title>
+      <link href="http://0.0.0.0:4000/web%20development/2019/09/14/project-1/" rel="alternate" type="text/html" title="Project 1" />
+      <published>2019-09-14T00:00:00-05:00</published>
+      <updated>2019-09-14T00:00:00-05:00</updated>
+      <id>http://0.0.0.0:4000/web%20development/2019/09/14/project-1</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/web%20development/2019/09/14/project-1/">&lt;p&gt;This is a recipe RESTful API written with &lt;strong&gt;Django&lt;/strong&gt; and &lt;strong&gt;Django REST framework&lt;/strong&gt; based on &lt;strong&gt;Test-driven development&lt;/strong&gt; built over &lt;strong&gt;Docker&lt;/strong&gt;. This project is a sample app that can be used for other projects.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">This is a recipe RESTful API written with Django and Django REST framework based on Test-driven development built over Docker. This project is a sample app that can be used for other projects.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
