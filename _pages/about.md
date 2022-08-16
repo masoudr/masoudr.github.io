@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: PhD Student in Electrical Engineering.
+subtitle: M.Sc. in Electrical Engineering.
 
 profile:
   align: right
