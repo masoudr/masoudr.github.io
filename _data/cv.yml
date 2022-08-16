@@ -1,0 +1,78 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Masoud Rahimi
+    - name: Languages
+      value: English, Farsi
+
+- title: Education
+  type: time_table
+  contents:
+    - title: "M.Sc. Electrical Engineering (Minor: Digital Electronics)"
+      institution: Shahid Beheshti University, Tehran, Iran
+      year: 2016
+      description:
+        - "Thesis: Design and Implementation of High-Speed SPI protocol in FPGA."
+    - title: "B.Sc. Electrical Engineering (Minor: Telecommunications)"
+      institution: Islamic Azad University, Tehran, Iran
+      year: 2013
+      description:
+        - "Thesis: Design and implementation of an intelligent cooling system for electrical components based on micro-controller."
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Embedded System Engineer
+      institution: Institute for Advanced Study, Princeton University
+      year: 2021
+      description:
+        - Technical Leader
+        - Firmware engineer
+
+    - title: Software Developer
+      institution: PNR, Tehran, Iran
+      year: 2016 - 2020
+      description:
+        - Python developer
+        - Embedded software developer
+
+    - title: Embedded Software Engineer (Part-Time)
+      institution: <a href='http://safirtelecom.com/'>Safir Telecom</a>, Tehran, Iran.
+      year: 2017 - 2019
+
+    - title: Electrical Engineer (Part-Time)
+      institution: <a href='http://pishrobot.com/eng/'>Pishrobot</a>, Tehran, Iran.
+      year: 2013 - 2016
+
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/masoudr/embedded-linux-image-builder">Embedded Linux Image Builder</a>
+      year: 2020
+      description: Build an embedded Linux image from scratch with Docker.
+    - title: <a href="https://github.com/Open-VTS">Open-source Vehicle Tracking System</a>
+      year: 2019
+      description: An Open-source Vehicle Tracking System based on GPS. It can track the device based on GPS data and send information to the central server.
+    - title: <a href="https://github.com/ARMmbed/mbed-os">Mbed OS</a>
+      year: 2018
+      description: A platform operating system designed for the internet of things.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Digital System Design
+      items: 
+        - Reconfigurable Systems.
+        - Embedded Systems.
+    - title: Computer Architecture
+      items:
+        - CPU Architecture.
+        - Memory Architecture.
+    - title: Internet of Things
+      items:
+        - Protocol Design.
+        - Physical Layer Design.
+        - Application Layer Design.
+

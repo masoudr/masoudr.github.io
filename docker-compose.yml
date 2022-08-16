@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:al-folio
+    command: ["jekyll", "serve"]
+    # command: ["jekyll", "build"]
+    ports:
+      - "8080:4000"
+    volumes:
+     - .:/srv/jekyll
