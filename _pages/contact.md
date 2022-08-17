@@ -28,7 +28,7 @@ nav_order: 6
                         <input type="file" name="upload">
                     </div>
                     <div class="row">
-                        <button type="submit" class="btn btn-primary ml-3 custom-button">Send</button>
+                        <button type="submit" class="btn btn-primary ml-3">Send</button>
                     </div>
                 </form>
             </div>
