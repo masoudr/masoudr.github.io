@@ -13,7 +13,7 @@
       institution: Shahid Beheshti University, Tehran, Iran
       year: 2016
       description:
-        - "Thesis: Design and Implementation of High-Speed SPI protocol in FPGA."
+        - "Thesis: Design and Implementation of High-Speed SPI protocol in FPGA"
     - title: "B.Sc. Electrical Engineering (Minor: Telecommunications)"
       institution: Islamic Azad University, Tehran, Iran
       year: 2013
@@ -24,10 +24,10 @@
   type: time_table
   contents:
     - title: Embedded System Engineer
-      institution: Institute for Advanced Study, Princeton University
+      institution: DEM, Tehran, Iran
       year: 2021
       description:
-        - Technical Leader
+        - Technical lead
         - Firmware engineer
 
     - title: Software Developer
@@ -38,11 +38,11 @@
         - Embedded software developer
 
     - title: Embedded Software Engineer (Part-Time)
-      institution: <a href='http://safirtelecom.com/'>Safir Telecom</a>, Tehran, Iran.
+      institution: <a href='http://safirtelecom.com/'>Safir Telecom</a>, Tehran, Iran
       year: 2017 - 2019
 
     - title: Electrical Engineer (Part-Time)
-      institution: <a href='http://pishrobot.com/eng/'>Pishrobot</a>, Tehran, Iran.
+      institution: <a href='http://pishrobot.com/eng/'>Pishrobot</a>, Tehran, Iran
       year: 2013 - 2016
 
 
@@ -64,15 +64,15 @@
   contents:
     - title: Digital System Design
       items: 
-        - Reconfigurable Systems.
-        - Embedded Systems.
+        - Reconfigurable Systems
+        - Embedded Systems
     - title: Computer Architecture
       items:
-        - CPU Architecture.
-        - Memory Architecture.
+        - CPU Architecture
+        - Memory Architecture
     - title: Internet of Things
       items:
-        - Protocol Design.
-        - Physical Layer Design.
-        - Application Layer Design.
+        - Protocol Design
+        - Physical Layer Design
+        - Application Layer Design
 
