@@ -12,6 +12,13 @@ nav_order: 6
         <div class="row">
             <div class="col-lg-6 col-lg-offset-2">
                 <form action="https://getform.io/f/{{ site.getform_id }}" method="POST" enctype="multipart/form-data" name="sentMessage" accept-charset="utf-8" id="contactForm">
+                    <div class="row" style='display: none;' id='error_captcha'>
+                       <div class="col-sm-12">
+                            <div class="alert alert-danger" role="alert">
+                                <b>Please check the captcha!</b>
+                            </div>
+                       </div>
+                    </div>
                     <div class="form-group">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" name="name" class="form-control" placeholder="Name" id="name" required>
@@ -27,11 +34,16 @@ nav_order: 6
                     <div class="form-group">
                         <input type="file" name="upload">
                     </div>
+                    <div class="g-recaptcha" data-sitekey="6LcMVZUhAAAAALQFADuIrs-BtZczCSAsT8k1cE3k"></div>
                     <div class="row">
-                        <button type="submit" class="btn btn-primary ml-3">Send</button>
+                        <div class="col-md-12 mx-auto">
+                            <button type="submit" class="btn btn-primary btn-lg mx-auto" id="sendMessageButton">Send</button>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+<script src="{{ '/assets/js/captcha_check.js' | relative_url }}"></script>
