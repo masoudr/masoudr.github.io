@@ -6,6 +6,6 @@ services:
     command: ["jekyll", "serve"]
     # command: ["jekyll", "build"]
     ports:
-      - "8080:4000"
+      - "4000:4000"
     volumes:
      - .:/srv/jekyll
