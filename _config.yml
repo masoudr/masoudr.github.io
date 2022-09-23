@@ -8,11 +8,11 @@ first_name: Masoud
 last_name: Rahimi
 email: info@masoudrahimi.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I'm a PhD student in electrical engineering.
+  PhD candidate in electrical and computer engineering.
 footer_text: >
   Powered by <a style="font-weight:bold" href="https://jekyllrb.com/" target="_blank">Jekyll</a> with :heart: | 
 
-keywords: masoud rahimi, phd student, electrical engineering, embedded system engineer  # add your own keywords or leave empty
+keywords: masoud rahimi, phd student, electrical engineering, embedded system engineer, concordia  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
