@@ -138,6 +138,7 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
+  background: var(--global-bg-color-gradient-navbar);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
@@ -283,6 +284,7 @@ footer.fixed-bottom {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  background: var(--global-footer-bg-color-gradient);
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {

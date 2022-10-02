@@ -3,13 +3,15 @@
 let toggleTheme = (theme) => {
   if (theme == "dark") {
     setTheme("light");
+    setAnimatedBackground("light");
   } else {
     setTheme("dark");
+    setAnimatedBackground("dark");
   }
 }
 
 
-let setTheme = (theme) =>  {
+let setTheme = (theme) => {
   transTheme();
   setHighlight(theme);
 
@@ -20,12 +22,12 @@ let setTheme = (theme) =>  {
     document.documentElement.removeAttribute("data-theme");
   }
   localStorage.setItem("theme", theme);
-  
+
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
     medium_zoom.update({
       background: getComputedStyle(document.documentElement)
-          .getPropertyValue('--global-bg-color') + 'ee',  // + 'ee' for trasparency.
+        .getPropertyValue('--global-bg-color') + 'ee',  // + 'ee' for trasparency.
     })
   }
 };
@@ -53,11 +55,30 @@ let initTheme = (theme) => {
   if (theme == null || theme == 'null') {
     const userPref = window.matchMedia;
     if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
+      theme = 'dark';
     }
   }
-  
+
   setTheme(theme);
+  setAnimatedBackground(theme);
+}
+
+let setAnimatedBackground = (theme) => {
+  var bg_color = getComputedStyle(document.body).getPropertyValue('--global-bg-color-gradient');
+  if (theme == "dark") {
+    // dark
+    document.getElementById("particles-js").style.background = bg_color;
+    particlesJS.load('particles-js', '/assets/json/particles_dark.json', function () {
+      // console.log('dark theme loaded');
+    });
+  }
+  else {
+    // light
+    document.getElementById("particles-js").style.background = bg_color;
+    particlesJS.load('particles-js', '/assets/json/particles_light.json', function () {
+      // console.log('light theme loaded');
+    });
+  }
 }
 
 
