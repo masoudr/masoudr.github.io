@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: M.Sc. in Electrical Engineering.
+subtitle: Ph.D. Candidate
 
 profile:
   align: right
