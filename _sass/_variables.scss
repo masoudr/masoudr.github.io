@@ -78,6 +78,8 @@ $color_dark8:             #8FD6E1;
 $gradient_light1: radial-gradient( circle farthest-corner at 10% 20%,  rgba(215,223,252,1) 0%, rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
 $gradient_light2: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
 
-$gradient_dark1: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+$gradient_dark1: radial-gradient( circle farthest-corner at 10% 20%,  rgba(32,45,58,1) 0%, rgba(90,92,106,1) 125.0%);
 $gradient_dark2: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+$gradient_dark3: linear-gradient(to right, #606c88 0%, #3f4c6b  51%, #606c88  100%);
 
+// $gradient_dark2: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%);

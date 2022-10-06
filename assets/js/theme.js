@@ -58,7 +58,8 @@ let initTheme = (theme) => {
       theme = 'dark';
     }
   }
-
+  // force dark theme
+  theme = 'dark';
   setTheme(theme);
   setAnimatedBackground(theme);
 }

@@ -13,9 +13,8 @@ body {
 
 #padding {
   // Add some padding for the nav-bar.
-  padding-top: 56px;
+  padding-top: 70px;
   padding-bottom: 70px;
-  min-height: 100vh;
   z-index: 1;
 }
 
@@ -43,6 +42,7 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   img {
+    border-radius: 10px;
     width: 100%;
   }
 }
