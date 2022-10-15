@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate
 
 profile:
   align: right
-  image: prof_pic.png
+  image: profile_pic2.jpeg
   address:
 
 news: true  # includes a list of news items
