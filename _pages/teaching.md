@@ -2,13 +2,13 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: My current teaching courses.
+description: My courses.
 nav: true
 nav_order: 5
 social: true
 ---
 
-Unfortunately at the moment, I don't have any courses.
+At the moment, I don't teach any courses.
 <br />
 <br />
 <br />
