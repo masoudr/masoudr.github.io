@@ -8,7 +8,7 @@ first_name: Masoud
 last_name: Rahimi
 email: info@masoudrahimi.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD candidate in electrical and computer engineering.
+  Ph.D. student in electrical and computer engineering.
 footer_text: >
   Powered by <a style="font-weight:bold" href="https://jekyllrb.com/" target="_blank">Jekyll</a> with :heart: | 
 
