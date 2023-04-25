@@ -49,6 +49,19 @@
       institution: <a href='http://pishrobot.com/eng/'>Pishrobot</a>, Tehran, Iran
       year: 2013 - 2016
 
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/masoudr/embedded-linux-image-builder">Embedded Linux Image Builder</a>
+      year: 2020
+      description: Automated build of embedded Linux image with Docker
+    - title: <a href="https://github.com/Open-VTS">Open-source Vehicle Tracking System</a>
+      year: 2019
+      description: An open-source vehicle tracking system based on GPS. It can track the device based on GPS data and send information to the central server
+    - title: <a href="https://github.com/ARMmbed/mbed-os">Mbed OS</a>
+      year: 2018
+      description: A platform operating system designed for the internet of things
+
 - title: Research Interests
   type: nested_list
   contents:
@@ -65,16 +78,3 @@
         - Protocol Design
         - Physical Layer Design
         - Application Layer Design
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/masoudr/embedded-linux-image-builder">Embedded Linux Image Builder</a>
-      year: 2020
-      description: Automated build of embedded Linux image with Docker
-    - title: <a href="https://github.com/Open-VTS">Open-source Vehicle Tracking System</a>
-      year: 2019
-      description: An open-source vehicle tracking system based on GPS. It can track the device based on GPS data and send information to the central server
-    - title: <a href="https://github.com/ARMmbed/mbed-os">Mbed OS</a>
-      year: 2018
-      description: A platform operating system designed for the internet of things
