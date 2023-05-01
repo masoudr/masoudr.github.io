@@ -8,7 +8,7 @@ nav_order: 5
 social: true
 ---
 
-At the moment, I don't teach any courses.
+At the moment, I don't present any courses.
 <br />
 <br />
 <br />
