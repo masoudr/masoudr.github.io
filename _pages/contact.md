@@ -12,6 +12,7 @@ nav_order: 6
         <div class="row">
             <div class="col-lg-6 col-lg-offset-2">
                 <form action="https://getform.io/f/{{ site.getform_id }}" method="POST" enctype="multipart/form-data" name="sentMessage" accept-charset="utf-8" id="contactForm">
+                    <input type="hidden" name="_gotcha" style="display:none !important">
                     <div class="row" style='display: none;' id='error_captcha'>
                        <div class="col-sm-12">
                             <div class="alert alert-danger" role="alert">
