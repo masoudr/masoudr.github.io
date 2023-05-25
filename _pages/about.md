@@ -16,4 +16,4 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my personal website!\
 My name is Masoud Rahimi, and I am a Ph.D. student in electrical and computer engineering at Concordia University.\
-I am currently doing research in computer architecture and emerging memory technologies. You can find my full CV **[here](/cv/)**.
+I am currently doing research in computer architecture and emerging memory technologies. You can find my full CV **[here](cv/)**.

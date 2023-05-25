@@ -34,7 +34,7 @@ nav_order: 6
                     <div class="form-group">
                         <input type="file" name="upload">
                     </div>
-                    <div class="g-recaptcha" data-sitekey="6LcMVZUhAAAAALQFADuIrs-BtZczCSAsT8k1cE3k"></div>
+                    <div class="g-recaptcha" data-sitekey="6LcGjD0mAAAAAFV4PMNVD1CJ95PvGSOsWJExfPWw"></div>
                     <div class="row">
                         <div class="col-md-12 mx-auto">
                             <button type="submit" class="btn btn-primary btn-lg mx-auto" id="sendMessageButton">Send</button>

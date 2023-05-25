@@ -1,4 +1,6 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
+let origin = window.location.origin;
+let _base_url = origin.concat("/~m_r54990/");
 
 let toggleTheme = (theme) => {
   if (theme == "dark") {
@@ -69,14 +71,14 @@ let setAnimatedBackground = (theme) => {
   if (theme == "dark") {
     // dark
     document.getElementById("particles-js").style.background = bg_color;
-    particlesJS.load('particles-js', '/assets/json/particles_dark.json', function () {
+    particlesJS.load('particles-js', _base_url.concat('assets/json/particles_dark.json'), function () {
       // console.log('dark theme loaded');
     });
   }
   else {
     // light
     document.getElementById("particles-js").style.background = bg_color;
-    particlesJS.load('particles-js', '/assets/json/particles_light.json', function () {
+    particlesJS.load('particles-js', _base_url.concat('assets/json/particles_light.json'), function () {
       // console.log('light theme loaded');
     });
   }
