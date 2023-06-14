@@ -1,10 +1,12 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Masoud Rahimi
+    - name: Location
+      value: Montréal, Québec, Canada
     - name: Languages
       value: English, Farsi
+    - name: Email
+      value: <a href="mailto:masoud.rahimi@concordia.ca">masoud.rahimi@concordia.ca</a>
 
 - title: Education
   type: time_table
