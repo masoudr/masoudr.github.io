@@ -6,7 +6,7 @@ subtitle: Ph.D. Student
 
 profile:
   align: right
-  image: profile_pic2.jpeg
+  image: profile_pic3.jpg
   address:
 
 news: true  # includes a list of news items
