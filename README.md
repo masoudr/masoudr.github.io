@@ -9,14 +9,14 @@ or
 
 ```bash
 docker image build -f Dockerfile -t jekyll/jekyll:al-folio .
-docker run --rm -v %cd%:/srv/jekyll -v %cd%/.bundle:/usr/local/bundle jekyll/jekyll:al-folio bundle install
-docker run --rm -v %cd%:/srv/jekyll -v %cd%/.bundle:/usr/local/bundle jekyll/jekyll:al-folio jekyll build
+docker run --rm -v "%cd%:/srv/jekyll" -v "%cd%/.bundle:/usr/local/bundle" jekyll/jekyll:al-folio bundle install
+docker run --rm -v "%cd%:/srv/jekyll" -v "%cd%/.bundle:/usr/local/bundle" jekyll/jekyll:al-folio jekyll build
 ```
 
 ## Update Command
 
 ```bash
-docker run --rm -v %cd%:/srv/jekyll -v %cd%/.bundle:/usr/local/bundle jekyll/jekyll:al-folio bundle update
+docker run --rm -v" %cd%:/srv/jekyll" -v "%cd%/.bundle:/usr/local/bundle" jekyll/jekyll:al-folio bundle update
 ```
 
 ## Run Command
@@ -24,5 +24,5 @@ docker run --rm -v %cd%:/srv/jekyll -v %cd%/.bundle:/usr/local/bundle jekyll/jek
 Use docker compose
 or
 ```bash
-docker run --rm -v %cd%:/srv/jekyll -p 4000:4000 -it jekyll/jekyll:al-folio jekyll serve
+docker run --rm -v "%cd%:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll:al-folio jekyll serve
 ```
