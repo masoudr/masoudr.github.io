@@ -29,19 +29,19 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Embedded System Developer
+      institution: <a href='https://polarsat.com/'>PolarSat</a>, Montreal, Canada
+      year: 2025
+      description:
+        - Embedded Linux development
+        - FPGA development
+
     - title: Embedded System Engineer
       institution: DEM, Tehran, Iran
       year: 2021
       description:
         - Technical lead
         - Firmware engineer
-
-    - title: Software Developer
-      institution: PNR, Tehran, Iran
-      year: 2016 - 2020
-      description:
-        - Python developer
-        - Embedded software developer
 
     - title: Embedded Software Engineer (Part-Time)
       institution: <a href='http://safirtelecom.com/'>Safir Telecom</a>, Tehran, Iran
@@ -68,7 +68,9 @@
   type: nested_list
   contents:
     - title: Digital System Design
-      items: 
+      items:
+        - In-memory Computing
+        - Graph Accelerators
         - Reconfigurable Systems
         - Embedded Systems
     - title: Computer Architecture
