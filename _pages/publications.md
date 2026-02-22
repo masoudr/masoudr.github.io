@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: You can check out some of my publications on this page.
-years: [2015, 2016]
+years: [2026, 2016, 2015]
 nav: true
 nav_order: 4
 ---
