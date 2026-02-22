@@ -1,9 +1,1 @@
-
-$("#contactForm").submit(function(event) {
-
-  var recaptcha = $("#g-recaptcha-response").val();
-  if (recaptcha === "") {
-     event.preventDefault();
-     $('#error_captcha').css('display', 'block');
-  }
-});
+$("#contactForm").submit(function(c){""===$("#g-recaptcha-response").val()&&(c.preventDefault(),$("#error_captcha").css("display","block"))});
